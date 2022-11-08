@@ -1,10 +1,9 @@
 #include "sort.h"
 
 /**
- * bubble_sort - Sort array of integers using bubble sort
- * @array: pointer to integer array
- * @size: array size
- * Return: Nothing
+ * bubble_sort - Sort by swapping largest items to end of array
+ * @array: Array to be sorted
+ * @size: Size of the array
  */
 void bubble_sort(int *array, size_t size)
 {
