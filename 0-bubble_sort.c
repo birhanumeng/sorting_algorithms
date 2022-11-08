@@ -10,6 +10,9 @@ void bubble_sort(int *array, size_t size)
 {
 	int i, tmp, len;
 	bool swapped = true;
+
+	if (array == NULL || size < 2)
+		return;
 	
 	len = size;
 	while (swapped == true)
@@ -28,6 +31,4 @@ void bubble_sort(int *array, size_t size)
 		}
 		len--;
 	}
-
-	return;
 }
