@@ -2,13 +2,13 @@
 
 /**
  * bubble_sort - Sort array of integers using bubble sort
- * array: pointer to integer array
- * size: array size
+ * @array: pointer to integer array
+ * @size: array size
  * Return: Nothing
  */
 void bubble_sort(int *array, size_t size)
 {
-	int i, tmp, len;
+	size_t i, tmp, len;
 	bool swapped = true;
 
 	if (array == NULL || size < 2)
